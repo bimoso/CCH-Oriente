@@ -1,0 +1,169 @@
+.tag-1 {
+    color: #fff;
+    background: #f44336;
+}
+.tag-1:hover {
+    color: #f44336;
+    background: white;
+}
+.tag-2 {
+    color: #fff;
+    background: #00bcd4;
+}
+.tag-2:hover {
+    color: #00bcd4;
+    background: #fff;
+}
+
+.tag-3 {
+    color: #fff;
+    background: #9c27b0;
+}
+.tag-3:hover {
+    background: #fff;
+    color: #9c27b0;
+}
+.tag-4 {
+    color: #fff;
+    background: #cddc39;
+}
+.tag-4:hover {
+    background: #fff;
+    color: #cddc39;
+}
+.tag-5 {
+    color: #fff;
+    background: #03a9f4;
+}
+.tag-5:hover {
+    background: #fff;
+    color: #03a9f4;
+}
+.tag-6 {
+    color: #fff;
+    background: #ff5722;
+}
+.tag-6:hover {
+    background: #fff;
+    color: #ff5722;
+}
+.tag-7 {
+    color: #fff;
+    background: #3f51b5;
+}
+.tag-7:hover {
+    background: #fff;
+    color: #3f51b5;
+}
+.tag-8 {
+    color: #fff;
+    background: #ff9800;
+}
+.tag-8:hover {
+    background: #fff;
+    color: #ff9800;
+}
+.tag-9 {
+    color: #fff;
+    background: #e81e63;
+}
+.tag-9:hover {
+    background: #fff;
+    color: #e81e63;
+}
+.tag-10 {
+    color: #fff;
+    background: #ffc107;
+}
+.tag-10:hover {
+    background: #fff;
+    color: #ffc107;
+}
+.tag-11 {
+    color: #fff;
+    background: #673ab7;
+}
+.tag-11:hover {
+    background: #fff;
+    color: #673ab7;
+}
+.tag-12 {
+    color: #fff;
+    background: #8bc34a;
+}
+.tag-12:hover {
+    background: #fff;
+    color: #8bc34a;
+}
+.tag-13 {
+    color: #fff;
+    background: #009688;
+}
+.tag-13:hover {
+    background: #fff;
+    color: #009688;
+}
+.tag-14 {
+    color: #fff;
+    background: #607d8b;
+}
+.tag-14:hover {
+    background: #fff;
+    color: #607d8b;
+}
+.tag-15 {
+    color: #fff;
+    background: #2196f3;
+}
+.tag-15:hover {
+    background: #fff;
+    color: #2196f3;
+}
+.tag-16 {
+    color: #fff;
+    background: #4caf50;
+}
+.tag-16:hover {
+    background: #fff;
+    color: #4caf50;
+}
+.tag-17 {
+    color: #fff;
+    background: #ffeb3b;
+}
+.tag-17:hover {
+    background: #fff;
+    color: #ffeb3b;
+}
+.tag-18 {
+    color: #fff;
+    background: #9e9e9e;
+}
+.tag-18:hover {
+    background: #fff;
+    color: #9e9e9e;
+}
+.tag-19 {
+    color: #fff;
+    background: #795548;
+}
+.tag-19:hover {
+    background: #fff;
+    color: #795548;
+}
+.tag-20 {
+    color: #fff;
+    background: #85f3d3;
+}
+.tag-20:hover {
+    background: #fff;
+    color: #85f3d3;
+}
+.back-7 {
+    background: #3f51b5;
+}
+.back-w {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #fab82855 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #fab828 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #fab82855 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #fab828 25%, #e5e5f7 25%) 0px 0/ 20px 20px;
+}
