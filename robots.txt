@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+Disallow: /creditos.html
+Disallow: /descargas.html
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.cch-oriente.unam.mx/sitemap.xml --------
