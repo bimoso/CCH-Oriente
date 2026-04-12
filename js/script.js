@@ -174,32 +174,22 @@ function backToTop() {
 
 	});
 
-
-
 	// venobox popup
-
 	$(document).ready(function () {
 
 		$('.venobox').venobox();
 
 	});
 
-
-
-
-
 	// filter
 
 	$(document).ready(function () {
-
 		var containerEl = document.querySelector('.filtr-container');
-
 		var filterizd;
 
 		if (containerEl) {
 
 			filterizd = $('.filtr-container').filterizr({});
-
 		}
 
 		//Active changer
