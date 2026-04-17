@@ -3,4 +3,7 @@
 *.m4v
 node_modules
 *.pem
+.idea
+.vscode
+dist
 package-lock.json

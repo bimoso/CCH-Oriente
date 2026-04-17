@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="calculo">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/pdf/areas/matematicas/calculo/calculo.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
