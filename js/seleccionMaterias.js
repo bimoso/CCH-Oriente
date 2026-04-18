@@ -73,11 +73,6 @@ const EstadoApp = {
             return;
         }
 
-        if (nodo.classList.contains("preferencial")) {
-             alert("Las asignaturas preferenciales de tu carrera no se pueden eliminar manualmente. Cambia de carrera si deseas modificarlas.");
-             return;
-        }
-
         if (this.materias.has(idMateria)) {
             // Quitar materia
             this.materias.delete(idMateria);
@@ -161,10 +156,6 @@ window.eliminarSeleccion = function(idMateria) {
     }
     const data = EstadoApp.materias.get(idMateria);
     if (data) {
-        if (data.preferencial) {
-             alert("Las asignaturas preferenciales no se pueden eliminar manualmente.");
-             return;
-        }
         EstadoApp.materias.delete(idMateria);
         data.nodo.classList.remove("seleccionado");
         data.nodo.style.backgroundColor = "";
@@ -188,7 +179,7 @@ function actualizarTablaVista() {
 
         celdaMateria.textContent = materia.nombre;
 
-        if (materia.id === "to1" || materia.preferencial) {
+        if (materia.id === "to1") {
             celdaAccion.innerHTML = `<span>No se puede eliminar</span>`;
         } else {
             celdaAccion.innerHTML = `<button class="btn btn-sm btn-danger" onclick="eliminarSeleccion('${materia.id}')">Eliminar</button>`;
